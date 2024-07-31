@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.h1{
+    background-color:black;
+    color: whitesmoke;
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+img:hover{
+    opacity:0.33;
+}
+img{
+    width: 165px;
+    height: 165px;
+    margin: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.point-table{
+    display: flex;
+    justify-content: center;
+}
+.user-point-table{
+    width: 215px;
+    height: 75px;
+    border: 2px solid  rgb(99, 24, 24);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    margin: 10px;
+    font-size: 3rem;
+}
+.user-point{
+    padding: 2px;
+    padding-left: 2px;
+}
+.comp-point-table{
+    width: 215px;
+    height: 75px;
+    border: 2px solid rgb(99, 24, 24);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    margin: 10px;
+    font-size: 3rem;
+}
+.comp-point{
+    padding: 2px;
+    padding-left: 2px;
+}
+.massage{
+    display: flex;
+   justify-content: center;
+   margin-top: 45px;
+   
+}
+#massage{
+    width: 40vw;
+    height: 50px;
+    background-color: blue;
+    border:2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
