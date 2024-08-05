@@ -34,7 +34,7 @@ img{
     justify-content: center;
 }
 .user-point-table{
-    width: 215px;
+    width: 250px;
     height: 75px;
     border: 2px solid  rgb(99, 24, 24);
     border-radius: 10px;
@@ -49,7 +49,7 @@ img{
     padding-left: 2px;
 }
 .comp-point-table{
-    width: 215px;
+    width: 250px;
     height: 75px;
     border: 2px solid rgb(99, 24, 24);
     border-radius: 10px;
@@ -77,4 +77,58 @@ img{
     border-radius: 20px;
     text-align: center;
     padding-top: 15px;
+}
+
+.draw{
+    width: 40vw;
+    height: 50px;
+    background-color: rgb(255, 221, 0);
+    border:2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.userwin{
+    width: 40vw;
+    height: 50px;
+    background-color: rgb(47, 255, 0);
+    border:2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.userlose{
+    width: 40vw;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border:2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.comp-choice-table{
+    width: 500px;
+    height: 75px;
+    border: 2px solid rgb(55, 24, 12);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 54, 228);
+    margin: 10px;
+    font-size: 3rem;
+}
+
+.user-choice-table{
+    width: 500px;
+    height: 75px;
+    border: 2px solid rgb(99, 24, 24);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(231, 54, 228);
+    margin: 10px;
+    font-size: 3rem;
 }
